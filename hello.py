@@ -7,7 +7,7 @@ import click
 @click.argument('lang', default='en')
 def hello(name, lang):
     if lang == 'en':
-        print(f'Hi, {name}')
+        print(f'Hi, {name} fiera')
     elif lang == 'es':
         print(f'Hola, {name}')
     else:
